@@ -2,6 +2,7 @@
   "name": "file-uploader",
   "version": "0.1.0",
   "private": true,
+"homepage": "https://domys.github.io/React-Search-Box/"
   "dependencies": {
     "express": "^4.17.0",
     "express-fileupload": "^1.1.4",
@@ -13,6 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+"predeploy": "npm run build",
+"deploy":"gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
